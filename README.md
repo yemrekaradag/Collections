@@ -10,15 +10,14 @@ Koleksiyon sınıfını oluşturacak yöntemlerin tümü, sınıfın temel veri 
 <hr>
 <img src="https://user-images.githubusercontent.com/107070882/198885273-8e9d1b83-d395-498a-84f1-afa745ffb689.png" alt="CollectionBase">
 <hr>
-<h5>Add:</h5> Bu yöntemin bir parametresi vardır. Koleksiyona eklenecek öğeyi tutan bir Object değişkeni.
-
+<h3>Add:</h3> Bu yöntemin bir parametresi vardır. Koleksiyona eklenecek öğeyi tutan bir Object değişkeni.
+<hr>
 <p>ArrayList’ler, verileri nesneler (Object veri türü) olarak depolar, bu nedenle öğeyi Object olarak deklare ettim. ArrayList ile alakalı projemi ilerleyen süreçte yükleyeceğim!</p>
-
-<h5>Remove:</h5> Bu yöntem de benzer şekilde tanımlanır ve koleksiyondan silinecek öğeyi parametre olarak object tipinde alır.
-<h5>Count:</h5> Genellikle bir özellik olarak uygulanır, ancak biz onu bir yöntem haline getirmeyi tercih ediyoruz. Ayrıca, Count, temel sınıf CollectionBase’de de tanımlıdır, bu nedenle CollectionBase'de bulunan Count tanımını gizlemek için <b>new</b> anahtar sözcüğü kullanmamız gerekir. Bize koleksiyondaki öğe sayısını integer türünde döndürür.
-<h5>Clear:</h5> Tüm öğeleri InnerList'ten kaldırır. Ayrıca yöntemin tanımında new anahtar sözcüğünü kullanmamız gerekiyor.
+<hr>
+<h3>Remove:</h3> Bu yöntem de benzer şekilde tanımlanır ve koleksiyondan silinecek öğeyi parametre olarak object tipinde alır.
+<h3>Count:</h3> Genellikle bir özellik olarak uygulanır, ancak biz onu bir yöntem haline getirmeyi tercih ediyoruz. Ayrıca, Count, temel sınıf CollectionBase’de de tanımlıdır, bu nedenle CollectionBase'de bulunan Count tanımını gizlemek için <b>new</b> anahtar sözcüğü kullanmamız gerekir. Bize koleksiyondaki öğe sayısını integer türünde döndürür.
+<h3>Clear:</h3> Tüm öğeleri InnerList'ten kaldırır. Ayrıca yöntemin tanımında new anahtar sözcüğünü kullanmamız gerekiyor.
 <hr>
 <p>Bir integer dizi, collection ve arraylist yapılarını diğer repository'm deki timing class ile performans ölçümü yapmak için birleştirdim. Sonuçları aşağıdaki linklerden görüp veya projeleri inceleyebilirsiniz!</p>
-
 <p>TimingClass : https://github.com/yemrekaradag/TimingClass</p>
 <p>CollectionVsArray : https://github.com/yemrekaradag/CollectionVsArray</p>
