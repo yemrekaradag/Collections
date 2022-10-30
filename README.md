@@ -22,5 +22,5 @@ Koleksiyon sınıfını oluşturacak yöntemlerin tümü, sınıfın temel veri 
 <hr>
 Bir integer dizi, collection ve arraylist yapılarını diğer repository'm deki timing class ile performans ölçümü yapmak için birleştirdim. Sonuçları aşağıdaki linklerden görüp veya projeleri inceleyebilirsiniz!
 
-TimingClass : https://github.com/yemrekaradag/TimingClass
-CollectionVsArray : https://github.com/yemrekaradag/CollectionVsArray
+<p>TimingClass : https://github.com/yemrekaradag/TimingClass</p>
+<p>CollectionVsArray : https://github.com/yemrekaradag/CollectionVsArray</p>
