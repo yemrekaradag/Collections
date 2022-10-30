@@ -1,3 +1,27 @@
+<h1>CollectionBase Class</h1>
+The .NET Framework library does not include a generic Collection class to store data, but there is an abstract class -CollectionBase that you can use to create your own Collection class. The CollectionBase class provides the programmer with the ability to implement a custom Collection class. The class implicitly implements the two interfaces required to create a Collection class, ICollection and IEnumerable. The programmer can only implement methods that should typically be part of a Collection class.
+<hr>
+I wrote a class to implement our own Collection class in C#. This will serve several purposes: First, if you're not fast enough with object-oriented programming (OOP), this app will show you some simple OOP techniques in C#. We can also use this section to discuss some of the performance issues that will arise when discussing different C# data structures. It's really fun to re-implement existing data structures using only the core elements of the language. You're not really good at learning something until you teach it to the computer. Therefore, by learning how to apply different data structures to C#, I will share my experience with these structures.
+<hr>
+The easiest way to define a Collection class in C# is to base the class on the CollectionBase class, which is an abstract class that already exists in the System.Collections library. This class provides a set of abstract methods that you can implement to create your own collection. The CollectionBase class is the basis for your class
+It provides a basic data structure called InnerList (an ArrayList) that you can use. In this section, we'll look at how to use CollectionBase to create a Collection class.
+<hr>
+The methods that will create the Collection class all involve some form of interaction with the underlying data structure of the class, InnerList. The methods we will apply in this first section are the Add, Remove,Count and Clear methods. These methods are absolutely necessary for the class, but adding other methods makes the class more useful. You can find my project where I added other methods at the bottom of the page!
+<hr>
+<img src="https://user-images.githubusercontent.com/107070882/198885273-8e9d1b83-d395-498a-84f1-afa745ffb689.png" alt="CollectionBase">
+<hr>
+<h3>Add:</h3> This method has one parameter. An Object variable holding the item to be added to the collection.
+<hr>
+<p>ArrayLists store data as objects (the Object data type), so I declared the item as Object. I will upload my project related to ArrayList in the future!</p>
+<hr>
+<h3>Remove:</h3> This method is defined similarly and takes the item to be deleted from the collection as a parameter of type object.
+<h3>Count:</h3> Usually implemented as a property, but we prefer to make it a method. Also, Count is defined in the base class CollectionBase, so we need to use the <b>new</b> keyword to hide the definition of Count in CollectionBase. Returns us the number of items in the collection of type integer.
+<h3>Clear:</h3> Removes all items from the InnerList. We also need to use the new keyword in the definition of the method.
+<hr>
+<p>I combined an integer array, collection and arraylist structures with the timing class in my other repository to measure performance. You can see the results from the links below or review the projects!</p>
+<p>TimingClass : https://github.com/yemrekaradag/TimingClass</p>
+<p>CollectionVsArray : https://github.com/yemrekaradag/CollectionVsArray</p>
+<hr>
 <h1>CollectionBase Sınıfı</h1>
 .NET Framework kitaplığı, verileri depolamak için genel bir Koleksiyon sınıfı içermez, ancak kendi Koleksiyon sınıfınızı oluşturmak için kullanabileceğiniz bir soyut sınıf vardır -CollectionBase. CollectionBase sınıfı, programcıya özel bir Koleksiyon sınıfını uygulama yeteneği sağlar. Sınıf, bir Koleksiyon sınıfı oluşturmak için gerekli olan iki arayüzü (interfaces), ICollection ve IEnumerable örtük olarak uygular. Programcı yalnızca tipik olarak bir Koleksiyon sınıfının parçası olması gereken yöntemleri uygulamakla yetinir.
 <hr>
