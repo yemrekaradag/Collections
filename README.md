@@ -7,11 +7,9 @@ C#'ta bir Koleksiyon sınıfını tanımlamanın en kolay yolu, sınıfı System
 kullanabileceğiniz InnerList (bir ArrayList) adında temel bir veri yapısı sağlar. Bu bölümde, bir Koleksiyon sınıfı oluşturmak için CollectionBase'in nasıl kullanılacağına bakacağız.
 <hr>
 Koleksiyon sınıfını oluşturacak yöntemlerin tümü, sınıfın temel veri yapısı olan InnerList ile bir tür etkileşim içerir. Bu ilk bölümde uygulayacağımız yöntemler Add, Remove,Count ve Clear yöntemleridir. Bu yöntemler sınıf için kesinlikle gereklidir, ancak diğer yöntemlerin eklenmesi sınıfı daha kullanışlı hale getirir. Diğer yöntemleri eklediğim projemi sayfanın en aşağısında bulabilirsiniz!
-
-
+<hr>
 <img src="https://user-images.githubusercontent.com/107070882/198885273-8e9d1b83-d395-498a-84f1-afa745ffb689.png" alt="CollectionBase">
-
-
+<hr>
 <h5>Add:</h5> Bu yöntemin bir parametresi vardır. Koleksiyona eklenecek öğeyi tutan bir Object değişkeni.
 
 <p>ArrayList’ler, verileri nesneler (Object veri türü) olarak depolar, bu nedenle öğeyi Object olarak deklare ettim. ArrayList ile alakalı projemi ilerleyen süreçte yükleyeceğim!</p>
