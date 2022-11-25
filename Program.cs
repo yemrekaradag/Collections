@@ -7,7 +7,6 @@ namespace Collections
     {
         static void Main(string[] args)
         {
-
             Collection names = new Collection();
             names.Add("Yunus");
             names.Add("Emre");
