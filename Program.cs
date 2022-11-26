@@ -52,6 +52,7 @@ namespace Collections
             #region Clear
             Console.WriteLine("\nRemoved the Collection");
             names.Clear();
+            Console.WriteLine("Number of names: {0}", names.Count());
             #endregion
 
             Console.ReadLine();
