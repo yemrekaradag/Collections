@@ -11,12 +11,15 @@ The methods that will create the Collection class all involve some form of inter
 <img src="https://user-images.githubusercontent.com/107070882/198885273-8e9d1b83-d395-498a-84f1-afa745ffb689.png" alt="CollectionBase">
 <hr>
 <h3>Add:</h3> This method has one parameter. An Object variable holding the item to be added to the collection.
-<hr>
 <p>ArrayLists store data as objects (the Object data type), so I declared the item as Object. I will upload my project related to ArrayList in the future!</p>
 <hr>
 <h3>Remove:</h3> This method is defined similarly and takes the item to be deleted from the collection as a parameter of type object.
 <h3>Count:</h3> Usually implemented as a property, but we prefer to make it a method. Also, Count is defined in the base class CollectionBase, so we need to use the <b>new</b> keyword to hide the definition of Count in CollectionBase. Returns us the number of items in the collection of type integer.
 <h3>Clear:</h3> Removes all items from the InnerList. We also need to use the new keyword in the definition of the method.
+<h3>Insert:</h3> It takes the data as Object and which index it will be inserted as a parameter and adds it to the InnerList.
+<h3>Contains:</h3> It takes the data to be checked as a parameter and searches it in the InnerList. It has O(n) complexity. It also returns True if it finds the data from the parameter in the ArrayList, otherwise it returns False.
+<h3>IndexOf:</h3> It takes the data as a parameter and returns the index number of the data it finds in the InnerList. It has O(n) complexity.
+<h3>RemoveAt:</h3> Takes the index number to be deleted from the InnerList as a parameter and deletes the specified index together with the item. Logically the length of the Collection is reduced. The index number of the item to be accessed logically will decrease by one.
 <hr>
 <p>I combined an integer array, collection and arraylist structures with the timing class in my other repository to measure performance. You can see the results from the links below or review the projects!</p>
 <p>TimingClass : https://github.com/yemrekaradag/TimingClass</p>
@@ -35,12 +38,15 @@ Koleksiyon sınıfını oluşturacak yöntemlerin tümü, sınıfın temel veri 
 <img src="https://user-images.githubusercontent.com/107070882/198885273-8e9d1b83-d395-498a-84f1-afa745ffb689.png" alt="CollectionBase">
 <hr>
 <h3>Add:</h3> Bu yöntemin bir parametresi vardır. Koleksiyona eklenecek öğeyi tutan bir Object değişkeni.
-<hr>
 <p>ArrayList’ler, verileri nesneler (Object veri türü) olarak depolar, bu nedenle öğeyi Object olarak deklare ettim. ArrayList ile alakalı projemi ilerleyen süreçte yükleyeceğim!</p>
 <hr>
 <h3>Remove:</h3> Bu yöntem de benzer şekilde tanımlanır ve koleksiyondan silinecek öğeyi parametre olarak object tipinde alır.
 <h3>Count:</h3> Genellikle bir özellik olarak uygulanır, ancak biz onu bir yöntem haline getirmeyi tercih ediyoruz. Ayrıca, Count, temel sınıf CollectionBase’de de tanımlıdır, bu nedenle CollectionBase'de bulunan Count tanımını gizlemek için <b>new</b> anahtar sözcüğü kullanmamız gerekir. Bize koleksiyondaki öğe sayısını integer türünde döndürür.
 <h3>Clear:</h3> Tüm öğeleri InnerList'ten kaldırır. Ayrıca yöntemin tanımında new anahtar sözcüğünü kullanmamız gerekiyor.
+<h3>Insert:</h3> Object olarak veriyi ve hangi index'e ekleneceğini parametre olarak alır ve InnerList'e ekler.
+<h3>Contains:</h3> Kontrol edilecek veriyi parametre olarak alır ve InnerList'de arar. O(n) karmaşıklığına sahiptir. Ayrıca ArrayList'de parametreden gelen veriyi bulursa True bulamazsa False döndürür.
+<h3>IndexOf:</h3> Parametre olarak veriyi alır ve InnerList'te bulduğu verinin index numarasını döndürür. O(n) karmaşıklığına sahiptir.
+<h3>RemoveAt:</h3> InnerList'den silinecek index numarasını parametre olarak alır ve belirlenen indexi öğe ile birlikte siler. Dolayısıyla Koleksiyonun uzunluğu azalır. Mantıken erişeceğimiz öğenin index numarası bir azalmış olacaktır.
 <hr>
 <p>Bir integer dizi, collection ve arraylist yapılarını diğer repository'm deki timing class ile performans ölçümü yapmak için birleştirdim. Sonuçları aşağıdaki linklerden görüp veya projeleri inceleyebilirsiniz!</p>
 <p>TimingClass : https://github.com/yemrekaradag/TimingClass</p>
