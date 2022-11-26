@@ -12,7 +12,6 @@ The methods that will create the Collection class all involve some form of inter
 <hr>
 <h3>Add:</h3> This method has one parameter. An Object variable holding the item to be added to the collection.
 <p>ArrayLists store data as objects (the Object data type), so I declared the item as Object. I will upload my project related to ArrayList in the future!</p>
-<hr>
 <h3>Remove:</h3> This method is defined similarly and takes the item to be deleted from the collection as a parameter of type object.
 <h3>Count:</h3> Usually implemented as a property, but we prefer to make it a method. Also, Count is defined in the base class CollectionBase, so we need to use the <b>new</b> keyword to hide the definition of Count in CollectionBase. Returns us the number of items in the collection of type integer.
 <h3>Clear:</h3> Removes all items from the InnerList. We also need to use the new keyword in the definition of the method.
@@ -39,7 +38,6 @@ Koleksiyon sınıfını oluşturacak yöntemlerin tümü, sınıfın temel veri 
 <hr>
 <h3>Add:</h3> Bu yöntemin bir parametresi vardır. Koleksiyona eklenecek öğeyi tutan bir Object değişkeni.
 <p>ArrayList’ler, verileri nesneler (Object veri türü) olarak depolar, bu nedenle öğeyi Object olarak deklare ettim. ArrayList ile alakalı projemi ilerleyen süreçte yükleyeceğim!</p>
-<hr>
 <h3>Remove:</h3> Bu yöntem de benzer şekilde tanımlanır ve koleksiyondan silinecek öğeyi parametre olarak object tipinde alır.
 <h3>Count:</h3> Genellikle bir özellik olarak uygulanır, ancak biz onu bir yöntem haline getirmeyi tercih ediyoruz. Ayrıca, Count, temel sınıf CollectionBase’de de tanımlıdır, bu nedenle CollectionBase'de bulunan Count tanımını gizlemek için <b>new</b> anahtar sözcüğü kullanmamız gerekir. Bize koleksiyondaki öğe sayısını integer türünde döndürür.
 <h3>Clear:</h3> Tüm öğeleri InnerList'ten kaldırır. Ayrıca yöntemin tanımında new anahtar sözcüğünü kullanmamız gerekiyor.
