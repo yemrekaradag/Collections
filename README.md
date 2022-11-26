@@ -46,6 +46,6 @@ Koleksiyon sınıfını oluşturacak yöntemlerin tümü, sınıfın temel veri 
 <h3>IndexOf:</h3> Parametre olarak veriyi alır ve InnerList'te bulduğu verinin index numarasını döndürür. O(n) karmaşıklığına sahiptir.
 <h3>RemoveAt:</h3> InnerList'den silinecek index numarasını parametre olarak alır ve belirlenen indexi öğe ile birlikte siler. Dolayısıyla Koleksiyonun uzunluğu azalır. Mantıken erişeceğimiz öğenin index numarası bir azalmış olacaktır.
 <hr>
-<p>Bir integer dizi, collection ve arraylist yapılarını diğer repository'm deki timing class ile performans ölçümü yapmak için birleştirdim. Sonuçları aşağıdaki linklerden görüp veya projeleri inceleyebilirsiniz!</p>
+<p>Bir integer dizi, collection ve arraylist yapılarını diğer repository'm deki timing class ile performans ölçümü yapmak için birleştirdim. Sonuçları aşağıdaki linklerden görebilir veya projeleri inceleyebilirsiniz!</p>
 <p>TimingClass : https://github.com/yemrekaradag/TimingClass</p>
 <p>CollectionVsArray : https://github.com/yemrekaradag/CollectionVsArray</p>
